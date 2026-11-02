@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://sitemaps.org">
+    <!-- Página Inicial de Entrada -->
     <url>
         <loc>https://artemissjanela1.vercel.app/</loc>
         <priority>1.0</priority>
+    </url>
+    
+    <!-- Tela do Sistema (Se você quiser que apareça no Google) -->
+    <url>
+        <loc>https://artemissjanela1.vercel.app/</loc>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Tela do Tutorial -->
+    <url>
+        <loc>https://artemissjanela1.vercel.app/</loc>
+        <priority>0.8</priority>
     </url>
 </urlset>
