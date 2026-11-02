@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artemis 1.1 - Chat</title>
+    <link rel="stylesheet" href="./index.css" />
+</head>
+<body>
+    <div class="container-principal">
+        <aside class="barra-lateral">
+            <img src="../assets/camera.png" class="pixel-icon" title="Inserir Imagem" id="btn-camera">
+            <img src="../assets/mic.png" class="pixel-icon" title="Ouvir Áudio" id="btn-mic">
+            <img src="../assets/volume.png" class="pixel-icon" id="btn-voz" title="Ativar/Desativar Voz">
+            <a href="../Janela 3/ch.html">
+                <img src="../assets/linhas.png" class="pixel-icon" title="Histórico">
+            </a>
+            <input type="file" id="input-foto" accept="image/*" style="display: none;">
+        </aside>
+
+        <main class="conteudo-chat">
+            <div id="resposta" class="display-resposta">
+                <div class="balao msg-artemis">Artemis 1.1: Decolagem bem sucedida. Como posso ajudar?</div>
+            </div>
+            
+            <div class="input-container">
+                <textarea id="pergunta" placeholder="Digite sua mensagem..."></textarea>
+                <button id="btn-enviar-chat">
+                    <img src="../assets/enviar.png" alt="Enviar">
+                </button>
+            </div>
+        </main>
+    </div>
+    <script type="module" src="app.js"></script>
+</body>
+</html>

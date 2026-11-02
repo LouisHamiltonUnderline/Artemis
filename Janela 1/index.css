@@ -1,0 +1,71 @@
+* { padding: 0; margin: 0; box-sizing: border-box; }
+
+body {
+    height: 100vh;
+    background-image: url("./background.jpeg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+}
+
+.boas-vindas {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 50px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+h1 { font-size: 3rem; margin-bottom: 10px; letter-spacing: 5px; }
+p { margin-bottom: 30px; opacity: 0.8; }
+
+.botoes-grupo {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.btn-entrar, .btn-tutorial {
+    text-decoration: none;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+.btn-entrar {
+    background-color: #5d25e4;
+}
+
+.btn-entrar:hover {
+    background-color: #4a1bb3;
+    transform: scale(1.05);
+}
+
+.btn-tutorial {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.btn-tutorial:hover {
+    background-color: white;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+        font-size: 16px;
+    }
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}

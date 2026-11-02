@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #0030b4;
+    background-image: url("../Janela_2/background.jpeg");
+    color: #e0e0e0;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.manual-container {
+    max-width: 850px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #002470;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    color: #5d25e4;
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 4px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #5d25e4;
+    padding-bottom: 15px;
+}
